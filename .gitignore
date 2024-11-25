@@ -1,0 +1,18 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude sensitive files
+*.tfvars
+terraform-key
+.terraform.lock.hcl
+
+# Exclude local credentials
+credentials.tf
+*.pem 
